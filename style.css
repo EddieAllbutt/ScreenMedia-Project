@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px auto;
+}
+
+.imagewithtext {
+  padding: 30px 0px;
+}
+
+.imagewithtext.blue {
+  background-color: rgb(130, 181, 228);
+}
+
+img {
+  width: 100%;
+}
