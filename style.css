@@ -5,6 +5,9 @@
   font-family: "Gill Sans", sans-serif;
 }
 
+.text h2 {
+}
+
 .container {
   width: 100%;
   max-width: 1400px;
@@ -18,7 +21,7 @@
 }
 
 .imagewithtext.grey {
-  background-color: rgb(215, 230, 245);
+  background-color: rgb(226, 230, 235);
 }
 
 .imagewithtext.offwhite {
@@ -32,4 +35,19 @@ img {
 p {
   font-size: 14px;
   line-height: 140%;
+}
+
+footer {
+  text-align: center;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  text-decoration-color: black;
 }
