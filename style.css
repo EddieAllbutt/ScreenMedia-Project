@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.text {
+  font-family: "Gill Sans", sans-serif;
+}
 
 .container {
   width: 100%;
@@ -14,10 +17,19 @@
   padding: 30px 0px;
 }
 
-.imagewithtext.blue {
-  background-color: rgb(130, 181, 228);
+.imagewithtext.grey {
+  background-color: rgb(215, 230, 245);
+}
+
+.imagewithtext.offwhite {
+  background-color: rgb(226, 233, 240);
 }
 
 img {
   width: 100%;
+}
+
+p {
+  font-size: 14px;
+  line-height: 140%;
 }
