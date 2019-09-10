@@ -23,19 +23,12 @@ h1 {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0px auto;
-  background-color: ;
+  overflow: hidden;
 }
 
 .imagewithtext {
   padding: 30px 0px;
-}
-
-.imagewithtext.grey {
-  background-color: ;
-}
-
-.imagewithtext.offwhite {
-  background-color: ;
+  border: 1px solid LightGrey;
 }
 
 img {
@@ -60,4 +53,18 @@ footer a {
 
 a {
   text-decoration-color: black;
+}
+
+body {
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  max-width: 800px;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
 }
