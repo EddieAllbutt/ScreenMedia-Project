@@ -135,12 +135,21 @@
     </div>
   </div>
 </section>
-    </body>
-  <footer>
+<footer>
     <a href="https://twitter.com/EddieAllbutt" target="_blank">TweetMe</a>
     <a href="https://www.linkedin.com/in/eddie-allbutt-b8a170113" target="_blank">LinkMe</a>
     <p>
         Built by Eddie Allbutt at ScreenMedia
       </p>
   </footer>
+<script src="jquery.js"></script>
+<script src="prognroll.js"></script>
+<script>$(function() {
+    $("body").prognroll({
+      height: 5, // progress bar height
+      color: "#84CDFF", // progress bar background color
+      custom: false // if you make it true, you can add your custom div and see it's scroll progress on the page
+    });
+  });</script>
+    </body>
 </html>
