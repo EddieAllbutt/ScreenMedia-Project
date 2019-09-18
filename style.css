@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  background-color: #b7dffa;
 }
 
 header {
@@ -22,6 +21,10 @@ h1 {
   color: #0b0911;
   text-align: center;
   padding: 10px;
+}
+
+.blue {
+  background-color: #6ba2c7;
 }
 
 .container {
@@ -71,6 +74,7 @@ body {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  background-color: #b7dffa;
 }
 
 @media (min-width: 700px) {
