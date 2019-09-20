@@ -6,12 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="normalise.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="plants.css" />
+
     <title>Plants</title>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <div class="text">
-      <p>Sample Text is here, and it's here to stay</p>
-    </div>
+    <header>
+      <h1>Plants</h1>
+    </header>
+    <section class="plantgrid">
+    <div class="container">
+        <div class="wrapper">
+          <div class="box">
+            <img src="./images/palmleaves.jfif" />
+            <div class="text">
+              <h3>Palm</h3>
+              <h4>£49.99</h4>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./images/succulents.jfif" />
+            <div class="text">
+              <h3>Succulents</h3>
+              <h4>£19.95</h4>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./images/snakeplant.jfif" />
+            <div class="text">
+              <h3>Snakeplant</h3>
+              <h4>£9.99</h4>
+            </div>    
+          </div>
+          <div class="box">
+            <img src="./images/cactus.jfif" />
+            <div class="text">
+              <h3>Cactus</h3>
+              <h4>£14.95</h4>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./images/fern.jfif" />
+            <div class="text">
+              <h3>Fern</h3>
+              <h4>£11.99</h4>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./images/fig.jfif" />
+            <div class="text">
+              <h3>Fig</h3>
+              <h4>£24.99</h4>
+            </div>  
+          </div>
+          <div class="box">
+              <img src="./images/aloevera.jfif" />
+              <div class="text">
+                <h3>Aloe Vera</h3>
+                <h4>£5.50</h4>
+              </div>  
+          </div>
+          <div class="box">
+              <img src="./images/ivy.jfif" />
+              <div class="text">
+                <h3>Ivy</h3>
+                <h4>£9.99</h4>
+              </div>  
+          </div>
+          <div class="box">
+              <img src="./images/janet craig compacta.jpg" />
+              <div class="text">
+                <h3>Janet Craig Compacta</h3>
+                <h4>£149.00</h4>
+              </div>  
+          </div>
+          <div class="box">
+              <img src="./images/spanishmoss.jpg" />
+              <div class="text">
+                <h3>Spanish Moss</h3>
+                <h4>£19.95</h4>
+              </div>  
+          </div>
+          <div class="box">
+              <img src="./images/dumbcane.jpg" />
+              <div class="text">
+                <h3>Dumb Cane</h3>
+                <h4>£14.95</h4>
+              </div>  
+          </div>
+          <div class="box">
+              <img src="./images/arrow.jpg" />
+              <div class="text">
+                <h3>Arrow</h3>
+                <h4>£9.95</h4>
+              </div>  
+          </div>          
+      </div>
+    </section>
+    <script src="jquery.js"></script>
+    <script src="prognroll.js"></script>
+    <script>$(function() {
+      $("body").prognroll({
+        height: 5, // progress bar height
+        color: "#84CDFF", // progress bar background color
+        custom: false // if you make it true, you can add your custom div and see it's scroll progress on the page
+        });
+        });
+    </script>
   </body>
 </html>
