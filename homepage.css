@@ -19,6 +19,10 @@
   padding: 10px;
 }
 
+footer {
+  color: pink;
+}
+
 @media (min-width: 700px) {
   .imagewithtext .wrapper {
     display: flex;
