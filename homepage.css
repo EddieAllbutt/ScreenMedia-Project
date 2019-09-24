@@ -41,6 +41,7 @@ footer {
   .imagewithext .image {
     flex-basis: 300px;
     min-width: 300px;
+    max-height: 400px;
   }
 
   .imagewithtext.right .image {

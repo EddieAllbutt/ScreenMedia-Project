@@ -169,7 +169,6 @@ body {
 
 canvas {
   display: block;
-  vertical-align: bottom;
 }
 
 /* ---- stats.js ---- */
@@ -215,9 +214,14 @@ canvas {
 #particles-js {
   width: 100%;
   height: 100%;
-  background-color: #b61924;
+  background-color: #000;
   background-image: url("");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+#particles-js,
+h1 {
+  color: #ccc;
 }
