@@ -3,6 +3,11 @@
   background-color: aliceblue;
 }
 
+*::selection {
+  background-color: rgb(187, 35, 35);
+  color: white;
+}
+
 header {
   text-align: center;
 }
