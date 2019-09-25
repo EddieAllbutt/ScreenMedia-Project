@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="marquee.css"/>
+    <title>Beware the beyond</title>
+  </head>
+  <body>
+    <div class="marquee3k" 
+    data-speed="0.25" → play around here
+    data-reverse="bool" → default: R to L  T to B
+    data-pausable="bool" → Pause marquee on hover>
+    <!--you can even have inline images, or any kind of html -->
+    <h1></h1>
+  </div>
+  <script src="marquee3k.js"></script>
+  <script>
+    for (let i = 0; i < 30; i++) {
+  const container = document.createElement('div');
+  const marquee = document.createElement('div');
+  const content = document.createElement('h1');
+
+  content.innerHTML = 'Anything';
+  marquee.classList.add('marquee3k');
+  marquee.style.background = `rgba(${getRandom()}, ${getRandom()}, ${getRandom()}, 1)`;
+  marquee.dataset.speed = (Math.random() * 0.35) + 0.1;
+   
+  container.classList.add('container');
+  container.style.transform = `rotate(${Math.random() * 30}deg)`;
+  
+  marquee.appendChild(content);
+  container.appendChild(marquee);
+  document.body.appendChild(container);
+}
+
+
+
+Marquee3k.init();
+
+
+
+function getRandom() {
+  return Math.floor(Math.random() * 255);
+}
+  </script>
+  </body>
+</html>

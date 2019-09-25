@@ -225,3 +225,19 @@ canvas {
 h1 {
   color: #ccc;
 }
+
+header,
+footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+header {
+  top: 0;
+  padding: 20px 20px;
+}

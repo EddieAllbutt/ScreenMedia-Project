@@ -1,0 +1,29 @@
+html {
+  font-size: 30px;
+}
+
+body {
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 120vw;
+  position: relative;
+  left: -10vw;
+  overflow: hidden;
+}
+
+.marquee3k {
+  padding: 0.2rem 0;
+}
+
+.diagonal-marquee {
+  transform: rotate(45deg);
+}
+
+.marquee3k__copy {
+  padding-right: 30px;
+  box-sizing: border-box;
+}
